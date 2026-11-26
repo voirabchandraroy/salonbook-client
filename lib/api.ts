@@ -1,4 +1,5 @@
-export const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+// API calls go through the client URL — next.config rewrites proxy /api to the server
+export const API_URL = process.env.NEXT_PUBLIC_BETTER_AUTH_URL || "http://localhost:3000";
 
 export async function apiFetch<T = any>(path: string, options: RequestInit = {}): Promise<T> {
   const isForm = options.body instanceof FormData;
