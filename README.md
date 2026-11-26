@@ -27,6 +27,6 @@ npm run build && npm start
 - `NEXT_PUBLIC_BETTER_AUTH_URL` — same as the API URL
 
 ## Links
-- Live Website: _TODO — add deployed URL_
-- Client Repository: _TODO_
-- Server Repository: _TODO_
+Live Website: https://salonbook-client-indol.vercel.app
+Client Repository: https://github.com/voirabchandraroy/salonbook-client
+Server Repository: https://github.com/voirabchandraroy/salonbook-server
